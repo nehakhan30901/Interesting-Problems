@@ -105,7 +105,7 @@ def find_triangular_with_n_factors(factors):
 				raise StopIteration
 		except StopIteration:
 			break
-	print(num)
+	return num
 
 def find_triangular_with_n_factors_without_Iterator(factors):
 
@@ -116,7 +116,7 @@ def find_triangular_with_n_factors_without_Iterator(factors):
 		place+=1
 		num+=place
 
-	print(num)
+	return num
 
 #http://www.gmathacks.com/gmat-math/number-of-factors-of-a-large-integer.html
 #number of factors=find all prime factors->add 1 to power of each->multiply all powers
@@ -134,7 +134,7 @@ def find_triangular_with_n_factors_gmat_hack(factors):
 				raise StopIteration
 		except StopIteration:
 			break
-	print(num)
+	return num
 
 
 
